@@ -6,7 +6,7 @@
 ```
 git clone https://github.com/Gopack-go-labs/lab1.git
 ```
-3. Change directiry
+3. Change directory
 ```
 cd lab1
 ```
