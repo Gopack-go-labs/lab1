@@ -15,3 +15,8 @@ cd lab1
 go run .
 ```
 5. Go to [http://localhost:8795/time](http://localhost:8795/time)
+
+### Team:
+- Siryk Maxim
+- Halai Andrii
+- Horai Kseniia
