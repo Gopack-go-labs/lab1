@@ -1,6 +1,7 @@
 # lab1
 
 ## How to use
+---
 1. [Install Go](https://go.dev/doc/install) on your pc. If it is already installed skip this step.
 2. Clone repository
 ```
