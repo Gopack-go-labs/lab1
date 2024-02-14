@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+const PORT = ":8795"
+
 func main() {
 	http.HandleFunc("/time", func(w http.ResponseWriter, r *http.Request) {
 		currentTime := time.Now().Format(time.RFC3339)
@@ -19,5 +21,5 @@ func main() {
 		w.Write(jsonResponse)
 	})
 
-	http.ListenAndServe(":8795", nil)
+  http.ListenAndServe(PORT, nil)
 }
