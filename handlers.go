@@ -1,9 +1,9 @@
 package main
 
-import(
-	"time"
-	"net/http"
+import (
 	"encoding/json"
+	"net/http"
+	"time"
 )
 
 func getTime(w http.ResponseWriter, r *http.Request) {
